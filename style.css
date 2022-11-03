@@ -1,0 +1,65 @@
+
+body{
+    background-color: rgb(255 234 167);
+    font-family: cursive;
+}
+#root{
+    background-color: rgb(241 245 248);
+    border-radius: 5%;
+    height: 85vh;
+    width: 30vw;
+    margin-left: 35%;
+    margin-top: 5%;
+    background-image: radial-gradient(#9e9e9e 10%, transparent 11%);
+    background-size: 25px 25px;
+    background-position: 0 0, 30px 30px;
+    background-repeat: repeat;
+
+}
+#heading h1{
+  transform: rotate(2deg);
+  padding: 0.2rem 1.5rem;
+  border-radius: 20% 5% 20% 5%/5% 20% 25% 20%;
+  background-color: #fdcb6e;
+  font-size: 1.5rem;
+
+
+}
+#heading{
+    width: fit-content;
+    margin-left: 25%;
+    padding-top: 5%;
+}
+
+#input input{
+    border: none;
+    border-bottom:#fdcb6e dotted;
+    background-color: transparent;
+    margin-left: 15%;
+    margin-top: 13%;
+    margin-right: 3%;
+    width: 60%;
+   font-size: larger;
+   font-family: cursive;
+
+}
+input:focus{
+    outline-width: 0px;
+}
+
+#input button{
+    width: 16%;
+    font-size: larger;
+    font-family: cursive;
+    cursor: pointer;
+    border:black 3px solid;
+    border-radius: 14%;
+}
+ul{
+    font-family: cursive;
+    margin-left: 17%;
+}
+li{
+    font-size: larger;
+    margin-top: 5%;
+}
